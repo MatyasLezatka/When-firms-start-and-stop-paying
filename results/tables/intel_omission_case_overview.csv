@@ -1,0 +1,2 @@
+CompanyName,Ticker,FiscalYear,pred_prob,target_event,rank_in_year,universe_firms,rank_percentile,actual_events_in_year
+INTEL CORP,INTC,2025,0.5978657007217407,1,197,1582,0.12452591656131479,41

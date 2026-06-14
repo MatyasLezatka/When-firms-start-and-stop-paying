@@ -1,0 +1,53 @@
+task,year,winning_feature,winning_variable,theory_block,mean_abs_shap,share_of_total_shap
+initiation,2000,Listing_Age_lag1,Listing Age,Life-Cycle & Maturity,0.3532023,0.08346908
+initiation,2001,RE_TA_lag1,RE / TA,Life-Cycle & Maturity,0.24511023,0.11040933
+initiation,2002,Profit_Margin_lag1,Profit Margin,Signaling & Profitability,0.47875264,0.07206316
+initiation,2003,RE_TA_lag1,RE / TA,Life-Cycle & Maturity,0.47556916,0.18151961
+initiation,2004,RE_TA_lag1,RE / TA,Life-Cycle & Maturity,0.46495354,0.17300239
+initiation,2005,RE_TA_lag1,RE / TA,Life-Cycle & Maturity,0.441063,0.07270751
+initiation,2006,RE_TA_lag1,RE / TA,Life-Cycle & Maturity,0.20982346,0.17868331
+initiation,2007,RE_TA_lag1,RE / TA,Life-Cycle & Maturity,0.2203389,0.19429918
+initiation,2008,Size_lag1,Size (log TA),Life-Cycle & Maturity,0.2583393,0.10351472
+initiation,2009,RE_TA_lag1,RE / TA,Life-Cycle & Maturity,0.28941122,0.1049667
+initiation,2010,RE_TA_lag1,RE / TA,Life-Cycle & Maturity,0.35917822,0.12168285
+initiation,2011,DIVPREM_lag1,Div. Premium,Catering Premium (Behavioral),0.28713045,0.09524377
+initiation,2012,RD_assets_lag1,R&D / Assets,Growth Options & Investment,0.40362906,0.09386771
+initiation,2013,RD_assets_lag1,R&D / Assets,Growth Options & Investment,0.27719632,0.091844276
+initiation,2014,Listing_Age_lag1,Listing Age,Life-Cycle & Maturity,0.19456488,0.085347645
+initiation,2015,ROA_lag1,ROA,Signaling & Profitability,0.2990437,0.09456936
+initiation,2016,RD_assets_lag1,R&D / Assets,Growth Options & Investment,0.28534573,0.09024644
+initiation,2017,RD_assets_lag1,R&D / Assets,Growth Options & Investment,0.38827774,0.07678784
+initiation,2018,RD_assets_lag1,R&D / Assets,Growth Options & Investment,0.42270038,0.08443316
+initiation,2019,RD_assets_lag1,R&D / Assets,Growth Options & Investment,0.22064869,0.100367665
+initiation,2020,Market_to_Book_lag1,Mkt-to-Book,Growth Options & Investment,0.21176197,0.094517626
+initiation,2021,Market_to_Book_lag1,Mkt-to-Book,Growth Options & Investment,0.28239104,0.12364936
+initiation,2022,ROA_lag1,ROA,Signaling & Profitability,0.21178284,0.1652235
+initiation,2023,ROA_lag1,ROA,Signaling & Profitability,0.37571725,0.15486065
+initiation,2024,RD_assets_lag1,R&D / Assets,Growth Options & Investment,0.4623114,0.084973454
+initiation,2025,RD_assets_lag1,R&D / Assets,Growth Options & Investment,0.52762884,0.16523407
+omission,2000,Listing_Age_lag1,Listing Age,Life-Cycle & Maturity,0.88177025,0.07466601
+omission,2001,Earnings_Volatility_lag1,Earnings Volatility,Conservatism & Risk,0.48814887,0.08435883
+omission,2002,Earnings_Volatility_lag1,Earnings Volatility,Conservatism & Risk,0.37339696,0.12714675
+omission,2003,Earnings_Volatility_lag1,Earnings Volatility,Conservatism & Risk,0.5702848,0.10074636
+omission,2004,Earnings_Volatility_lag1,Earnings Volatility,Conservatism & Risk,0.5672288,0.09919134
+omission,2005,Earnings_Volatility_lag1,Earnings Volatility,Conservatism & Risk,0.6175932,0.15188202
+omission,2006,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.5048674,0.12051089
+omission,2007,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.6389184,0.10944765
+omission,2008,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.715305,0.12480992
+omission,2009,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.8724481,0.07851062
+omission,2010,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.74719924,0.13265379
+omission,2011,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,1.1433002,0.102427915
+omission,2012,DIVPREM_lag1,Div. Premium,Catering Premium (Behavioral),1.4430293,0.094723485
+omission,2013,DIVPREM_lag1,Div. Premium,Catering Premium (Behavioral),2.2736626,0.113067076
+omission,2014,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,1.2428528,0.1103833
+omission,2015,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,1.3787694,0.084640846
+omission,2016,DIVPREM_lag1,Div. Premium,Catering Premium (Behavioral),5.730926,0.17056423
+omission,2017,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.69617635,0.17826585
+omission,2018,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.75085634,0.19681317
+omission,2019,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.76070035,0.20827876
+omission,2020,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.8120913,0.22859445
+omission,2021,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.8015769,0.22138923
+omission,2022,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.6069097,0.16262434
+omission,2023,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.57842624,0.15892757
+omission,2024,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.6432643,0.17407918
+omission,2025,Log_MarketCap_lag1,Log Mkt Cap,Life-Cycle & Maturity,0.61049676,0.17045806

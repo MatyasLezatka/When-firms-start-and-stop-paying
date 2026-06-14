@@ -1,0 +1,13 @@
+task,model,pr_auc,roc_auc,brier,f1_topk
+initiation,Logit-unpenalized,0.1163,0.7757,0.1864,0.158
+initiation,Ridge,0.1182,0.776,0.1868,0.1575
+initiation,LASSO,0.1178,0.7729,0.189,0.155
+initiation,RF,0.1415,0.7693,0.1124,0.2037
+initiation,XGB,0.1637,0.7928,0.1414,0.2188
+initiation,LGB,0.1702,0.7947,0.1387,0.2227
+omission,Logit-unpenalized,0.2242,0.8507,0.1298,0.2655
+omission,Ridge,0.2212,0.8495,0.1301,0.2655
+omission,LASSO,0.218,0.8482,0.1323,0.265
+omission,RF,0.3113,0.8917,0.0751,0.3428
+omission,XGB,0.316,0.8925,0.0678,0.3585
+omission,LGB,0.3121,0.8957,0.0891,0.3502

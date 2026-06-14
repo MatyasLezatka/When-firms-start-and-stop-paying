@@ -1,0 +1,53 @@
+# ── Proprietary raw data ──────────────────────────────────────────────────────
+data/compustat_funda_dividend_ml_raw_1963_2025.csv.gz
+
+# Large derived panel (reproducible from 01_data_sourcing.ipynb + WRDS access)
+data/dividend_full_engineered_panel_1963_2025.csv
+
+# ── Internal AI tool files ────────────────────────────────────────────────────
+CLAUDE.md
+AGENTS.md
+
+# ── Notebook backups ──────────────────────────────────────────────────────────
+*.bak
+*.bak2
+
+# ── Loose staging files in root / results ────────────────────────────────────
+timeseries.png
+results/Meta_Alphabet.png
+results/intel.png
+results/meta_starbucks.png
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv/
+env/
+venv/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ── R artifacts ───────────────────────────────────────────────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+
+# ── Editors ───────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo

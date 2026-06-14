@@ -68,7 +68,7 @@ Six classifiers are evaluated in a horse-race under identical rolling cross-vali
 |---|---|---|---|
 | Logistic Regression (unpenalized) | None | — | Balanced class weights |
 | Ridge (L2) | `λ` (penalty); `C = 1/λ` in sklearn | λ ∈ {0.05, 0.06, …, 2.05}, 41 values; exhaustive search | Balanced class weights |
-| LASSO (L1) | None (baseline fixed at `C = 0.1`; optional robustness grid C ∈ {0.01, 0.1, 1.0}) | — | Balanced class weights |
+| LASSO (L1) | None (fixed at `C = 0.1`) | — | Balanced class weights |
 | Random Forest | `n_estimators`, `min_samples_leaf`, `max_depth` | {100, 500, 1000} × {1, 3, 5, 7, 11, 15, 20, 21} × {1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25}; random search n = 50 | Balanced class weights |
 | XGBoost | `n_estimators`, `learning_rate`, `max_depth`, `subsample`, `colsample_bytree` | {100, 500, 1000} × {0.001, 0.005, 0.01, 0.1} × {2, 5, 7, 10, 20} × {0.6, 0.8, 1.0} × {0.6, 0.8, 1.0}; random search n = 50 | `scale_pos_weight = n_neg / n_pos` per fold |
 | LightGBM | `learning_rate`, `num_leaves`, `max_depth` (`n_estimators` = 500, fixed) | {0.001, 0.005, 0.01, 0.1} × {2, 5, 7, 10, 20} × {2, 5, 7, 10, 20}; random search n = 50 | `scale_pos_weight = n_neg / n_pos` per fold |

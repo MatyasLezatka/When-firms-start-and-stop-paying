@@ -116,8 +116,6 @@ Raw data are sourced from Compustat Fundamentals Annual (WRDS, `comp.funda`, IND
 
 Pre-computed ML-ready CSVs are provided in `data/`. These files are the direct input to `03_ml_analysis.ipynb` and reproduce all thesis results without requiring a WRDS subscription or re-running the data pipeline.
 
-> **Reproducibility note:** Re-running `01_data_sourcing.ipynb` from a fresh WRDS download may produce marginally different sample counts due to pipeline refinements made after the ML analysis was completed. All thesis results correspond to the pre-computed CSVs provided in `data/`.
-
 ---
 
 ## Setup

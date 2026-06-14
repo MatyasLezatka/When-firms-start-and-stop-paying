@@ -41,7 +41,3 @@ The complete SQL query is embedded in cell 2 of `01_data_sourcing.ipynb`. Runnin
 `dividend_full_engineered_panel_1963_2025.csv` contains 332,358 firm-years (1963–2025) with both current-year features and lagged predictors. It is produced by `01_data_sourcing.ipynb` and read by `02_descriptive_analysis.ipynb` for same-year feature reporting. The file is excluded from this repository because of its size but can be reproduced by running `01_data_sourcing.ipynb` with WRDS access.
 
 ---
-
-## Reproducibility note
-
-Re-running `01_data_sourcing.ipynb` from a fresh WRDS download may produce marginally different sample counts relative to those in the thesis (94,127 initiation / 72,646 omission firm-years). This reflects minor pipeline refinements made after the ML analysis was completed. The pre-computed CSVs in this directory correspond to the exact data used for all thesis results.

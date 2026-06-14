@@ -18,6 +18,9 @@ results/Meta_Alphabet.png
 results/intel.png
 results/meta_starbucks.png
 
+# ── LaTeX output ──────────────────────────────────────────────────────────────
+results/tables/*.tex
+
 # ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]

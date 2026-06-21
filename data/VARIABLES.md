@@ -1,10 +1,7 @@
 # Feature Variable Documentation
 
 **Dividend Initiation and Omission Prediction — Compustat Constructions**
-
-> Master's thesis: *When Firms Start and Stop Paying: Machine Learning Evidence on Dividend Initiation and Omission*  
-> Utrecht University, Utrecht School of Economics (USE)  
-> Supervisor: Prof. dr. Marie Dutordoir
+>References behind the variable selection and Compustat-based feature construction.
 
 ---
 
@@ -96,7 +93,7 @@ Amini, Shahram, Ryan Elmore, Özde Öztekin, and Jack Strauss. 2021. "Can Machin
 
 Anderson, Mark, Muhammad Kabir, Harun Rashid, and Hussein Warsame. 2022. "Corporate Dividend Policy and Tax Avoidance." *Canadian Tax Journal* 70: 747.
 
-Carl, Casimir, Peter Limbach, and Florencio Lopez-de Silanes. 2025. "Corporate Income Taxes and Payout Policy: Evidence from US State-Level Tax Changes." SSRN Working Paper 5106131.
+Carl, Casimir, Peter Limbach, and Florencio Lopez-de Silanes. 2025. Corporate Income Taxes and Payout Policy: Evidence from US State-Level Tax Changes. SSRN Working Paper 5106131.
 
 DeAngelo, Harry, Linda DeAngelo, and René M. Stulz. 2006. "Dividend Policy and the Earned/Contributed Capital Mix: A Test of the Life-Cycle Theory." *Journal of Financial Economics* 81(2): 227–254.
 
@@ -114,7 +111,7 @@ Jensen, Michael C. 1986. "Agency Costs of Free Cash Flow, Corporate Finance, and
 
 Kale, Jayant R., Omesh Kini, and Jan D. Payne. 2012. "The Dividend Initiation Decision of Newly Public Firms: Some Evidence on Signaling with Dividends." *Journal of Financial and Quantitative Analysis* 47(2): 365–396.
 
-Kumar, Alok, Zhen Lei, and Chendi Zhang. 2022. "Dividend Sentiment, Catering Incentives, and Return Predictability." *Journal of Corporate Finance* 72: 102128.
+Kumar, Alok & Lei, Zicheng & Zhang, Chendi, 2022. "Dividend sentiment, catering incentives, and return predictability," *Journal of Corporate Finance, Elsevier*, vol. 72(C).
 
 Michaely, Roni, and Amani Moin. 2022. "Disappearing and Reappearing Dividends." *Journal of Financial Economics* 143(1): 207–226.
 

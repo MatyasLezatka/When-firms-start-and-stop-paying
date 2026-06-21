@@ -36,8 +36,7 @@ ml-dividend-initiation-omission/
 │   ├── README.md                     # Data access and WRDS reproduction instructions
 │   ├── ml_dividend_initiations_1990_2025.csv   # 94,127 firm-years, 34 lagged features + target
 │   ├── ml_dividend_omissions_1990_2025.csv     # 72,646 firm-years, 34 lagged features + target
-│   ├── ml_feature_list.csv           # Feature mapping (current-year name → lagged column name)
-│   └── VARIABLES.md                  # Feature variable citation documentation (Compustat formulas + sources)
+│   └── ml_feature_list.csv           # Feature mapping (current-year name → lagged column name)
 │
 ├── results/
 │   ├── figures/                      # All main and supplementary figures (PNG/PDF)
@@ -148,7 +147,7 @@ A WRDS subscription is required. Set `FORCE_DOWNLOAD = True` in the first code c
 | Metric | Initiation best model | Omission best model |
 |---|---|---|
 | PR-AUC | XGBoost / LightGBM | XGBoost / LightGBM |
-| Primary signal block | Life-Cycle & Maturity (2000–2009); Growth Options & Investment (2010–2025) | Life-Cycle & Maturity (stable across all regimes) |
+| Primary signal block | Growth Options & Investment | Life-cycle and maturity |
 
 Full performance tables and SHAP figures are in `results/`.
 

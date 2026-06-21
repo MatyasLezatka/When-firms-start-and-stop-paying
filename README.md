@@ -148,7 +148,7 @@ A WRDS subscription is required. Set `FORCE_DOWNLOAD = True` in the first code c
 | Metric | Initiation best model | Omission best model |
 |---|---|---|
 | PR-AUC | XGBoost / LightGBM | XGBoost / LightGBM |
-| Primary signal block | Life-cycle and maturity | Conservatism and risk |
+| Primary signal block | Life-Cycle & Maturity (2000–2009); Growth Options & Investment (2010–2025) | Life-Cycle & Maturity (stable across all regimes) |
 
 Full performance tables and SHAP figures are in `results/`.
 
